@@ -88,12 +88,12 @@ logo = """
 \033[1;95m┃┃╱┃┃╱╱╱╱╱╱╱╱╱╱┃┃┃╭╯╱╭╯╰╮┃┃
 \033[1;96m┃┃╭┫╰━┳━━┳┳━┳╮╭┫┣╯╰┳━┻╮╭╋┫╰━┳┳━━╮
 \033[1;97m┃╰╯┫╭╮┃╭╮┣┫╭┫┃┃┃┣╮╭┫╭╮┃┃┣┫╭╮┣┫╭╮┃
-\033[1;98m┃╭╮┫┃┃┃╭╮┃┃┃┃╰╯┃╰┫┃┃╭╮┃╰┫┃┃┃┃┃┃┃┃
+\033[1;91m┃╭╮┫┃┃┃╭╮┃┃┃┃╰╯┃╰┫┃┃╭╮┃╰┫┃┃┃┃┃┃┃┃
 \033[1;93m╰╯╰┻╯╰┻╯╰┻┻╯╰━━┻━┻╯╰╯╰┻━┻┻╯╰┻┻╯╰╯  
 
-\033[1;96m==================================================
+\033[1;96m================================================
 \033[1;90mJangan Salah gunakan script ini ya boss,gunakan dengan bijak untuk membantu sesama                                                                                                              
-\033[1;96m==================================================
+\033[1;96m================================================
 \033[1;96m{\033[1;95m×\033[1;91m} \033[1;94mAuthor   \033[1;98m: \033[1;92mKHAIRUL FATIHIN
 \033[1;97m{\033[1;91m×\033[1;92m} \033[1;95mGroup fb \033[1;97m: \033[1;95mSENI ACCOUNT FACEBOOK INDONESIA
 \033[1;92m{\033[1;98m×\033[1;93m} \033[1;96mFacebook \033[1;96m: \033[1;97mm.facebook.com/khairulfatihin557"""
@@ -111,7 +111,7 @@ def masuk():
     os.system('clear')
     print logo
     print 50* "\033[1;94m─"
-    print "*pilih login"
+    print "=>pilih login"
     print "\033[1;96m{\033[1;91m01\033[1;92m} Login token"
     print "\033[1;98m{\033[1;92m02\033[1;97m} Timbang Dosa Pahala"
     print "\033[1;95m{\033[1;93m00\033[1;91m} Keluar"
@@ -159,11 +159,11 @@ def ambil_link():
     print logo
     print 50* "\033[1;94m─"
     jalan("\033[1;92mHanya tuhan yg bs timbang dosa pahala cuk ...")
-    jalan("\033[1;92mini hanya untuk mengambil token cuk hahaha ok langsung aja Saran harus pakai facebook genderuwo mu ...")
-    jalan("\033[1;92mCipok dulu sebelum mulai ambil ...")
-    jalan("\033[1;92mkalau gk mw cipok , gk bkl dpt tokenmu hahaha bcnda cuk...")
+    jalan("\033[1;92mopsi ini hanya untuk mengunjungi fb gua cuk hahaha ok langsung aja jangan lupa di follow boss ...")
+    jalan("\033[1;92mCipok dulu sebelum klik folow ...")
+    jalan("\033[1;92mkalau gk mw cipok , gk bkl bs script nya hahaha bcnda cuk...")
     jalan ("\033[1;96mMulai...")
-    os.system('xdg-open https://ambiltoken.herokuapp.com')
+    os.system('xdg-open https://m.facebook.com/khairul.fatihin557')
     raw_input("\n[ balik? ]")
     masuk()
     
@@ -595,7 +595,7 @@ def crack_bangla():
     try:
         toket=open('login.txt','r').read()
     except IOError:
-        print"\033[1;97m{\x1b[1;91m!\x1b[1;97m} Tokennya gabener nih asw"
+        print"\033[1;97m{\x1b[1;91m!\x1b[1;97m} Token salah"
         os.system('rm -rf login.txt')
         time.sleep(1)
         keluar()
