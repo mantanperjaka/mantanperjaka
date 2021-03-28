@@ -91,9 +91,7 @@ logo = """
 \033[1;98m┃╭╮┫┃┃┃╭╮┃┃┃┃╰╯┃╰┫┃┃╭╮┃╰┫┃┃┃┃┃┃┃┃
 \033[1;93m╰╯╰┻╯╰┻╯╰┻┻╯╰━━┻━┻╯╰╯╰┻━┻┻╯╰┻┻╯╰╯  
 
-\033[1;90mKHAIRUL \033[1;93mFATIHIN \033[1;96mCREATOR
-
-GOOOO                                                                                                              
+\033[1;93m──────────────────────────────────────────────────                                                                                                              
 \033[1;94m──────────────────────────────────────────────────
 \033[1;96m{\033[1;95m×\033[1;91m} \033[1;94mAuthor   \033[1;98m: \033[1;92mKHAIRUL FATIHIN
 \033[1;97m{\033[1;91m×\033[1;92m} \033[1;95mGroup fb \033[1;97m: \033[1;95mSAFI
@@ -112,15 +110,15 @@ def masuk():
     os.system('clear')
     print logo
     print 50* "\033[1;94m─"
-    print "*Cuma Login Token Cuk"
+    print "*pilih login"
     print "\033[1;96m{\033[1;91m01\033[1;92m} Login token"
-    print "\033[1;98m{\033[1;92m02\033[1;94m} Timbang Dosa Pahala"
+    print "\033[1;98m{\033[1;92m02\033[1;97m} Timbang Dosa Pahala"
     print "\033[1;95m{\033[1;93m00\033[1;91m} Keluar"
     print 50* "\033[1;94m─"
     pilih_masuk()
 
 def pilih_masuk():
-    msuk = raw_input("\033[1;90mPilih ? \033[91m:\033[1;92m ")
+    msuk = raw_input("\033[1;96mPilih ? \033[91m:\033[1;92m ")
     if msuk =="":
         print"\033[1;97m[\033[1;91m!\033[1;97m] hanya tuhan yg bs cuk "
         pilih_masuk()
@@ -378,7 +376,7 @@ def pilih_indo():
     for o in titik:
         print("\r\033[1;97m{\033[1;93m√\033[1;97m} \033[1;93msedang berjalan "+o),;sys.stdout.flush();time.sleep(1)
     print("\n\033[1;96m{\033[1;92m√\033[1;98m} \033[1;91mpakai mode pesawat kalo ga jalan")
-    print ("\033[1;94m──────────────────────────────────────────────────")
+    print ("\033[1;92m──────────────────────────────────────────────────")
     
 ##### MAIN INDONESIA #####
     def main(arg):
