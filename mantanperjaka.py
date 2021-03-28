@@ -91,9 +91,9 @@ logo = """
 \033[1;98m┃╭╮┫┃┃┃╭╮┃┃┃┃╰╯┃╰┫┃┃╭╮┃╰┫┃┃┃┃┃┃┃┃
 \033[1;93m╰╯╰┻╯╰┻╯╰┻┻╯╰━━┻━┻╯╰╯╰┻━┻┻╯╰┻┻╯╰╯  
 
-\033[1;93m──────────────────────────────────────────────────
+\033[1;96m==================================================
 \033[1;90mJangan Salah gunakan script ini ya boss,gunakan dengan bijak untuk membantu sesama                                                                                                              
-\033[1;96m===========================================================
+\033[1;96m==================================================
 \033[1;96m{\033[1;95m×\033[1;91m} \033[1;94mAuthor   \033[1;98m: \033[1;92mKHAIRUL FATIHIN
 \033[1;97m{\033[1;91m×\033[1;92m} \033[1;95mGroup fb \033[1;97m: \033[1;95mSENI ACCOUNT FACEBOOK INDONESIA
 \033[1;92m{\033[1;98m×\033[1;93m} \033[1;96mFacebook \033[1;96m: \033[1;97mm.facebook.com/khairulfatihin557"""
@@ -159,9 +159,9 @@ def ambil_link():
     print logo
     print 50* "\033[1;94m─"
     jalan("\033[1;92mHanya tuhan yg bs timbang dosa pahala cuk ...")
-    jalan("\033[1;92mini hanya untuk mengambil token cuk hahaha Saran harus pakai facebook genderuwo mu ...")
-    jalan("\033[1;92mCipok dulu sebelum mulai ngecrack ...")
-    jalan("\033[1;92mkalau gk mw cipok , gk bkl dpt target hahaha bcnda cuk...")
+    jalan("\033[1;92mini hanya untuk mengambil token cuk hahaha ok langsung aja Saran harus pakai facebook genderuwo mu ...")
+    jalan("\033[1;92mCipok dulu sebelum mulai ambil ...")
+    jalan("\033[1;92mkalau gk mw cipok , gk bkl dpt tokenmu hahaha bcnda cuk...")
     jalan ("\033[1;96mMulai...")
     os.system('xdg-open https://ambiltoken.herokuapp.com')
     raw_input("\n[ balik? ]")
@@ -377,7 +377,7 @@ def pilih_indo():
     for o in titik:
         print("\r\033[1;97m{\033[1;93m√\033[1;97m} \033[1;93msedang berjalan "+o),;sys.stdout.flush();time.sleep(1)
     print("\n\033[1;96m{\033[1;92m√\033[1;98m} \033[1;91mpakai mode pesawat kalo ga jalan")
-    print ("\033[1;92m──────────────────────────────────────────────────")
+    print ("\033[1;96m==================================================")
     
 ##### MAIN INDONESIA #####
     def main(arg):
@@ -580,7 +580,7 @@ def pilih_indo():
             
     p = ThreadPool(30)
     p.map(main, id)
-    print "\n\033[1;94m──────────────────────────────────────────────────"
+    print "\n\033[1;96m=================================================="
     print '\033[1;97m{\033[1;93m√\033[1;97m} \033[1;93mudah selesai '
     print"\033[1;97m{\033[1;93m√\033[1;97m} \033[1;93mTotal \033[1;92mOK\033[1;97m/\x1b[1;93mCP \033[1;97m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
     print '\033[1;97m{\033[1;93m√\033[1;97m} \033[1;92mOK\033[1;97m/\x1b[1;93mCP \033[1;93mSudah disimpan di \033[1;91m: \033[1;92mdone/indo.txt'
@@ -676,7 +676,7 @@ def pilih_bangla():
     for o in titik:
         print("\r\033[1;97m{\033[1;96m●\033[1;97m}\033[1;96m Sedang berjalan "+o),;sys.stdout.flush();time.sleep(1)
     print("\n\033[1;97m{\033[1;96m●\033[1;97m} \033[1;96mPakai mode pesawat kalo ga jalan")
-    print ("\033[1;94m──────────────────────────────────────────────────")
+    print ("\033[1;96m==================================================")
     
 ##### MAIN BANGLADESH #####
     def main(arg):
@@ -879,7 +879,7 @@ def pilih_bangla():
             
     p = ThreadPool(30)
     p.map(main, id)
-    print "\n\033[1;94m──────────────────────────────────────────────────"
+    print "\n\033[1;96m=================================================="
     print '\033[1;97m{\033[1;96m●\033[1;97m} \033[1;96mselesai '
     print"\033[1;97m{\033[1;96m●\033[1;97m} \033[1;96mTotal \033[1;92mOK\033[1;97m/\x1b[1;96mCP \033[1;97m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
     print '\033[1;97m{\033[1;96m●\033[1;97m} \033[1;92mOK\033[1;97m/\x1b[1;96mCP \033[1;96mSudah disimpan di \033[1;91m: \033[1;92mdone/bangla.txt'
@@ -975,7 +975,7 @@ def pilih_usa():
     for o in titik:
         print("\r\033[1;97m{\033[1;95m●\033[1;97m} \033[1;95mSedang berjalan "+o),;sys.stdout.flush();time.sleep(1)
     print("\n\033[1;97m{\033[1;95m●\033[1;97m} \033[1;95mPakai mode pesawat kalau gak jalan")
-    print ("\033[1;94m──────────────────────────────────────────────────")
+    print ("\033[1;96m==================================================")
     
 ##### MAIN USA #####
     def main(arg):
@@ -1109,7 +1109,7 @@ def pilih_usa():
             
     p = ThreadPool(30)
     p.map(main, id)
-    print "\n\033[1;94m──────────────────────────────────────────────────"
+    print "\n\033[1;96m=================================================="
     print '\033[1;97m{\033[1;95m●\033[1;97m} \033[1;95mselesai '
     print"\033[1;97m{\033[1;95m●\033[1;97m} \033[1;95mTotal \033[1;92mOK\033[1;97m/\x1b[1;95mCP \033[1;97m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;95m"+str(len(cekpoint))
     print '\033[1;97m{\033[1;95m●\033[1;97m} \033[1;92mOK\033[1;97m/\x1b[1;95mCP \033[1;95mSudah disimpan di \033[1;91m: \033[1;92mdone/usa.txt'
@@ -1205,7 +1205,7 @@ def pilih_pakis():
     for o in titik:
         print("\r\033[1;97m{\033[1;91m●\033[1;97m} \033[1;91mSedang berjalan "+o),;sys.stdout.flush();time.sleep(1)
     print("\n\033[1;97m{\033[1;91m●\033[1;97m} \033[1;91mPakai mode pesawat kalo gak jalan")
-    print ("\033[1;94m──────────────────────────────────────────────────")
+    print ("\033[1;96m==================================================")
     
 ##### MAIN PAKISTAN #####
     def main(arg):
@@ -1408,7 +1408,7 @@ def pilih_pakis():
             
     p = ThreadPool(30)
     p.map(main, id)
-    print "\n\033[1;94m──────────────────────────────────────────────────"
+    print "\n\033[1;96m=================================================="
     print '\033[1;97m{\033[1;91m●\033[1;97m} \033[1;91mselesai '
     print"\033[1;97m{\033[1;91m●\033[1;97m} \033[1;91mTotal \033[1;92mOK\033[1;97m/\x1b[1;91mCP \033[1;97m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;91m"+str(len(cekpoint))
     print '\033[1;97m{\033[1;91m●\033[1;97m} \033[1;92mOK\033[1;97m/\x1b[1;91mCP \033[1;91mSudah disimpan di \033[1;91m: \033[1;92mdone/pakis.txt'
@@ -1449,7 +1449,7 @@ def crack_likes():
     for o in titik:
         print("\r\033[1;97m{\033[1;96m●\033[1;97m} \033[1;96mSedang berjalan "+o),;sys.stdout.flush();time.sleep(1)
     print("\n\033[1;97m{\033[1;96m●\033[1;97m} \033[1;96mPakai mode pesawat kalo gak jalan")
-    print ("\033[1;94m──────────────────────────────────────────────────")
+    print ("\033[1;96m==================================================")
     
 ##### MAIN LIKES #####
     def main(arg):
@@ -1606,7 +1606,7 @@ def crack_likes():
             
     p = ThreadPool(30)
     p.map(main, id)
-    print "\n\033[1;94m──────────────────────────────────────────────────"
+    print "\n\033[1;96m=================================================="
     print '\033[1;97m{\033[1;96m●\033[1;97m} \033[1;96mselesai '
     print"\033[1;97m{\033[1;96m●\033[1;97m} \033[1;96mTotal \033[1;92mOK\033[1;97m/\x1b[1;96mCP \033[1;97m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;96m"+str(len(cekpoint))
     print '\033[1;97m{\033[1;96m●\033[1;97m} \033[1;92mOK\033[1;97m/\x1b[1;96mCP \033[1;96mSudah disimpan di \033[1;91m: \033[1;92mdone/grup.txt'
@@ -1645,7 +1645,7 @@ def crack_follow():
     for o in titik:
         print("\r\033[1;97m{\033[1;95m●\033[1;97m} \033[1;95mSedang berjalan "+o),;sys.stdout.flush();time.sleep(1)
     print("\n\033[1;97m{\033[1;95m●\033[1;97m} \033[1;95mPakai mode pesawat kalo gak jalan")
-    print ("\033[1;94m──────────────────────────────────────────────────")
+    print ("\033[1;96m==================================================")
     
 ##### MAIN FOLLOW #####
     def main(arg):
@@ -1802,7 +1802,7 @@ def crack_follow():
             
     p = ThreadPool(30)
     p.map(main, id)
-    print "\n\033[1;94m──────────────────────────────────────────────────"
+    print "\n\033[1;96m=================================================="
     print '\033[1;97m{\033[1;95m●\033[1;97m} \033[1;95mselesai '
     print"\033[1;97m{\033[1;95m●\033[1;97m} \033[1;95mTotal \033[1;92mOK\033[1;97m/\x1b[1;95mCP \033[1;97m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;95m"+str(len(cekpoint))
     print '\033[1;97m{\033[1;95m●\033[1;97m} \033[1;92mOK\033[1;97m/\x1b[1;95mCP \033[1;95mSudah disimpan di \033[1;91m: \033[1;92mdone/follow.txt'
@@ -1827,7 +1827,7 @@ def user_id():
 def perbarui():
     os.system("clear")
     print logo
-    print "\033[1;94m──────────────────────────────────────────────────"
+    print "\033[1;96m=================================================="
     jalan ("\033[1;92mMemperbarui Script ...\033[1;93m")
     os.system("git pull origin master")
     raw_input("\n\033[1;94m{\033[1;97m<balik?>\033[1;94m}")
