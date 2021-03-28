@@ -10,7 +10,7 @@ $ pip2 install mechanize
 
 $ pip2 install requests
 
-$ https://github.com/mantanperjaka/mantanperjaka
+$ git clone https://github.com/mantanperjaka/mantanperjaka
 
 $ cd mantanperjaka
 
