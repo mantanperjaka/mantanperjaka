@@ -91,10 +91,11 @@ logo = """
 \033[1;98m┃╭╮┫┃┃┃╭╮┃┃┃┃╰╯┃╰┫┃┃╭╮┃╰┫┃┃┃┃┃┃┃┃
 \033[1;93m╰╯╰┻╯╰┻╯╰┻┻╯╰━━┻━┻╯╰╯╰┻━┻┻╯╰┻┻╯╰╯  
 
-\033[1;93m──────────────────────────────────────────────────                                                                                                              
-\033[1;94m──────────────────────────────────────────────────
+\033[1;93m──────────────────────────────────────────────────
+\033[1;90mJangan Salah gunakan script ini ya boss,gunakan dengan bijak untuk membantu sesama                                                                                                              
+\033[1;96m===========================================================
 \033[1;96m{\033[1;95m×\033[1;91m} \033[1;94mAuthor   \033[1;98m: \033[1;92mKHAIRUL FATIHIN
-\033[1;97m{\033[1;91m×\033[1;92m} \033[1;95mGroup fb \033[1;97m: \033[1;95mSAFI
+\033[1;97m{\033[1;91m×\033[1;92m} \033[1;95mGroup fb \033[1;97m: \033[1;95mSENI ACCOUNT FACEBOOK INDONESIA
 \033[1;92m{\033[1;98m×\033[1;93m} \033[1;96mFacebook \033[1;96m: \033[1;97mm.facebook.com/khairulfatihin557"""
 
 back = 0
@@ -120,7 +121,7 @@ def masuk():
 def pilih_masuk():
     msuk = raw_input("\033[1;96mPilih ? \033[91m:\033[1;92m ")
     if msuk =="":
-        print"\033[1;97m[\033[1;91m!\033[1;97m] hanya tuhan yg bs cuk "
+        print"\033[1;97m[\033[1;91m!\033[1;97m] mana tokenmu cuk kok gak ada "
         pilih_masuk()
     elif msuk =="1" or msuk =="01":
         tokenz()
@@ -129,7 +130,7 @@ def pilih_masuk():
     elif msuk =="0" or msuk =="00":
         keluar()
     else:
-        print"\033[1;97m[\033[1;91m!\033[1;97m] Hanya tuhan yg bs cuk"
+        print"\033[1;97m[\033[1;91m!\033[1;97m] mana tokenmu cuk kok gak ada"
         pilih_masuk()
             
 #####LOGIN_TOKENZ#####
@@ -157,8 +158,8 @@ def ambil_link():
     os.system("clear")
     print logo
     print 50* "\033[1;94m─"
-    jalan("\033[1;92mJangan pakai akun realmu boss...")
-    jalan("\033[1;92mSaran harus pakai facebook genderuwo mu ...")
+    jalan("\033[1;92mHanya tuhan yg bs timbang dosa pahala cuk ...")
+    jalan("\033[1;92mini hanya untuk mengambil token cuk hahaha Saran harus pakai facebook genderuwo mu ...")
     jalan("\033[1;92mCipok dulu sebelum mulai ngecrack ...")
     jalan("\033[1;92mkalau gk mw cipok , gk bkl dpt target hahaha bcnda cuk...")
     jalan ("\033[1;96mMulai...")
