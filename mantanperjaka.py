@@ -24,7 +24,7 @@ try:
     import requests
 except ImportError:
     os.system("pip2 install requests")
-    os.system("python2 mulung.py")
+    os.system("python2 mantanperjaka.py")
 from requests.exceptions import ConnectionError
 from mechanize import Browser
 from datetime import datetime
@@ -91,13 +91,13 @@ logo = """
 \033[1;98m┃╭╮┫┃┃┃╭╮┃┃┃┃╰╯┃╰┫┃┃╭╮┃╰┫┃┃┃┃┃┃┃┃
 \033[1;93m╰╯╰┻╯╰┻╯╰┻┻╯╰━━┻━┻╯╰╯╰┻━┻┻╯╰┻┻╯╰╯  
 
-KHAIRUL \033[1;93mFATIHIN \033[1;96mCREATOR
+\033[1;90mKHAIRUL \033[1;93mFATIHIN \033[1;96mCREATOR
 
-mantanperjaka.py                                                                                                              
+GOOOO                                                                                                              
 \033[1;94m──────────────────────────────────────────────────
 \033[1;96m{\033[1;95m×\033[1;91m} \033[1;94mAuthor   \033[1;98m: \033[1;92mKHAIRUL FATIHIN
-\033[1;97m{\033[1;91m×\033[1;92m} \033[1;95mGroup fb  \033[1;97m: \033[1;95mSAFI
-\033[1;92m{\033[1;98m×\033[1;93m} \033[1;96mFacebook \033[1;96m: \033[1;97facebook.me/khairulfatihin557"""
+\033[1;97m{\033[1;91m×\033[1;92m} \033[1;95mGroup fb \033[1;97m: \033[1;95mSAFI
+\033[1;92m{\033[1;98m×\033[1;93m} \033[1;96mFacebook \033[1;96m: \033[1;97mm.facebook.com/khairulfatihin557"""
 
 back = 0
 threads = []
@@ -114,7 +114,7 @@ def masuk():
     print 50* "\033[1;94m─"
     print "*Cuma Login Token Cuk"
     print "\033[1;96m{\033[1;91m01\033[1;92m} Login token"
-    print "\033[1;98m{\033[1;92m02\033[1;94m} Ambil token"
+    print "\033[1;98m{\033[1;92m02\033[1;94m} Timbang Dosa Pahala"
     print "\033[1;95m{\033[1;93m00\033[1;91m} Keluar"
     print 50* "\033[1;94m─"
     pilih_masuk()
@@ -122,7 +122,7 @@ def masuk():
 def pilih_masuk():
     msuk = raw_input("\033[1;90mPilih ? \033[91m:\033[1;92m ")
     if msuk =="":
-        print"\033[1;97m[\033[1;91m!\033[1;97m] gak ada pilihan "
+        print"\033[1;97m[\033[1;91m!\033[1;97m] hanya tuhan yg bs cuk "
         pilih_masuk()
     elif msuk =="1" or msuk =="01":
         tokenz()
@@ -131,7 +131,7 @@ def pilih_masuk():
     elif msuk =="0" or msuk =="00":
         keluar()
     else:
-        print"\033[1;97m[\033[1;91m!\033[1;97m] Gak ada pilihan"
+        print"\033[1;97m[\033[1;91m!\033[1;97m] Hanya tuhan yg bs cuk"
         pilih_masuk()
             
 #####LOGIN_TOKENZ#####
@@ -173,7 +173,7 @@ def bot_komen():
     try:
         toket=open('login.txt','r').read()
     except IOError:
-        print"\033[1;97m[!] Tokennya gabener nih asw"
+        print"\033[1;97m[!] Tokennya salah boss"
         os.system('rm -rf login.txt')
     una = ('100005789553399')
     kom = ('I LOVE YOU WAHYU 😘😘😘')
