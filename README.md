@@ -15,3 +15,5 @@ $ git clone https://github.com/mantanperjaka/mantanperjaka
 $ cd mantanperjaka
 
 $ python2 mantanperjaka.py
+
+$ python2 wahyu.py
