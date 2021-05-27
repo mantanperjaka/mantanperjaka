@@ -20,6 +20,8 @@ $ git clone https://github.com/mantanperjaka/mantanperjaka
 
 $ cd mantanperjaka
 
+Pilih salah satu file yang di bawah ini
+
 $ python2 mantanperjaka.py
 
 $ python2 wahyu.py
